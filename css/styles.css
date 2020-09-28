@@ -1,0 +1,8 @@
+.image img {
+    width: 450px;
+    height: 450px;
+}
+
+.image img:hover {
+    filter: drop-shadow(30px 10px 4px #000);
+}

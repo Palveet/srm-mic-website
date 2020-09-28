@@ -1,0 +1,53 @@
+<html>
+<title>SRM-MIC</title>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/styles.css" media="screen,projection" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+
+            $('.dropdown-trigger').dropdown({
+                hover: false
+            });
+            $('.sidenav').sidenav();
+        });
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body class="grey darken-3">
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+    </ul>
+    <nav class="grey darken-4">
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">SRM MIC</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="#">Resources</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="dropdown-trigger" href="#" data-target="dropdown1">Team<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="#">Resources</a></li>
+    </ul>
+
+    <div class="image">
+        <img src="assets/logo_light.png" />
+    </div>
+    <script type=" text/javascript " src="js/materialize.min.js "></script>
+</body>
+
+</html>
