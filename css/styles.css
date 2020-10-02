@@ -5,10 +5,11 @@ nav ul a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     transition: ease-out 0.2s;
+    padding: 5px 25px;
 }
 
 nav ul a:hover {
-    color: #cccccc;
+    color: #fb8c00;
     transition: linear 0.5s;
 }
 
@@ -29,6 +30,7 @@ nav .brand-logo {
 .image img {
     width: 450px;
     height: 450px;
+    filter: drop-shadow(0 0 0.75rem #42a5f5);
 }
 
 h1,
@@ -42,11 +44,14 @@ h6 {
 
 p {
     color: #fff;
-    size: 20px;
+    size: 24px;
+    font-weight: 100;
+    text-align: justify;
 }
 
 .container {
     width: 85%!important;
+    margin-bottom: 6%!important;
 }
 
 .icons {
@@ -63,4 +68,15 @@ p {
 
 .spacing {
     margin-bottom: 5%;
+}
+
+hr {
+    height: 1px;
+    font-weight: lighter;
+}
+
+.social img {
+    margin: 10px;
+    width: 25px;
+    height: 25px;
 }
