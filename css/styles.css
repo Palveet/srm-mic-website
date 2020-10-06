@@ -46,10 +46,20 @@ ul li:hover {
     margin: 5px;
 }
 
+.brand-logo:hover {
+    filter: drop-shadow(2rem 0rem 2rem #fff);
+    transition: ease-in 0.75s;
+}
+
 .image img {
     width: 450px;
     height: 450px;
-    filter: drop-shadow(0 0 0.75rem #42a5f5);
+    filter: drop-shadow(0.75rem 0.75rem 0.75rem #42a5f5);
+}
+
+.image img:hover {
+    filter: drop-shadow(0.75rem 0.75rem 0.75rem crimson);
+    transition: ease-in 0.75s;
 }
 
 h1,
@@ -58,7 +68,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #fff;
+    color: #f1f3f8;
 }
 
 p {
@@ -98,4 +108,17 @@ hr {
     margin: 10px;
     width: 25px;
     height: 25px;
+}
+
+.sidenav-overlay {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+@media only screen and (max-width:600px) {
+    .image img {
+        width: 350px;
+        height: 350px;
+        padding-top: 15px;
+        margin-left: -15px;
+    }
 }
