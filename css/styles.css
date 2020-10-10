@@ -9,8 +9,8 @@ nav ul a {
 }
 
 nav ul a:hover {
-    color: #fb8c00;
-    transition: linear 0.5s;
+    color: #f44336;
+    transition: linear 0.75s;
 }
 
 nav {
@@ -35,9 +35,9 @@ ul li {
 
 ul li:hover {
     background-color: black;
-    border-radius: 20%;
+    border-radius: 10%;
     transition: .75s;
-    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+    box-shadow: 0 0 5px #fff, 0 0 15px #fff, 0 0 25px #fff;
 }
 
 .brand-logo img {
@@ -47,19 +47,19 @@ ul li:hover {
 }
 
 .brand-logo:hover {
-    filter: drop-shadow(2rem 0rem 2rem #fff);
+    filter: drop-shadow(0 -6mm 4mm crimson);
     transition: ease-in 0.75s;
 }
 
 .image img {
     width: 450px;
     height: 450px;
-    filter: drop-shadow(0.75rem 0.75rem 0.75rem #42a5f5);
+    filter: drop-shadow(0.75rem 0.75rem 0.75rem #3f51b5);
 }
 
 .image img:hover {
-    filter: drop-shadow(0.75rem 0.75rem 0.75rem crimson);
-    transition: ease-in 0.75s;
+    filter: drop-shadow(0.75rem 0.75rem 0.75rem #f44336);
+    transition: ease-in-out 0.75s;
 }
 
 h1,
